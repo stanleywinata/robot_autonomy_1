@@ -1,0 +1,8 @@
+prefix=/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install
+
+Name: locobot_description_v3
+Description: Description of locobot_description_v3
+Version: 1.0.0
+Cflags: 
+Libs: -L/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install/lib 
+Requires: 

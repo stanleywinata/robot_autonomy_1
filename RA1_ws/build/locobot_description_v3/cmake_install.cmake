@@ -1,0 +1,65 @@
+# Install script for directory: /media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3/catkin_generated/installspace/locobot_description_v3.pc")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/cmake" TYPE FILE FILES
+    "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3/catkin_generated/installspace/locobot_description_v3Config.cmake"
+    "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3/catkin_generated/installspace/locobot_description_v3Config-version.cmake"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3" TYPE FILE FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/package.xml")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/config" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/config/")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/launch" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/launch/")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/meshes" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/meshes/")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/urdf" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/urdf/")
+endif()
+
