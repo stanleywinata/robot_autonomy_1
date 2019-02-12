@@ -1,8 +1,8 @@
-# Install script for directory: /media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3
+# Install script for directory: /home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,22 +44,22 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3" TYPE FILE FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3" TYPE FILE FILES "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/config" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/config" TYPE DIRECTORY FILES "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/config/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/launch" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/launch" TYPE DIRECTORY FILES "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/meshes" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/meshes" TYPE DIRECTORY FILES "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/meshes/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/urdf" TYPE DIRECTORY FILES "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locobot_description_v3/urdf" TYPE DIRECTORY FILES "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/urdf/")
 endif()
 

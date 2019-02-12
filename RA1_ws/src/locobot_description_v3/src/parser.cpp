@@ -9,7 +9,6 @@ Eigen::MatrixXd axis2rot(urdf::Vector3 axis,double theta){
     Eigen::MatrixXd Trans_mat = Eigen::MatrixXd::Identity(4,4);
     
     Trans_mat.block(0,0,3,3) = Rot_mat;
-    /* std::cout<<Trans_mat; */
     return Trans_mat;
 }
 
@@ -52,11 +51,26 @@ int main(int argc, char** argv){
   std::string joints[5] = {"joint_1","joint_2","joint_3","joint_4","joint_5"};
   urdf::Joint joint;
   Eigen::MatrixXd trans = Eigen::MatrixXd::Identity(4,4);
+  std::vector<Eigen::MatrixXd> trans_vec; 
   for(int i = 0; i < 5; i++){
      joint =  *model.getJoint(joints[i]);
      trans = trans*Transform(joint,angle[i]);
-  /* std::cout<<trans<<"\n\n"; */
+     trans_vec.push_back(trans);
   }
   std::cout<<trans;
+    
+  std::vector<Eigen::MatrixXd> rot_vec,lin_vec;
+  Eigen::MatrixXd rot_current, lin_current(3,1);
+  Eigen::Vector3d diff(3,1);
+  for(int i = 0;i<5;i++){
+      //Todo: add reading joint and also dont forget to multiply the axis
+      rot_current = trans_vec[i].block(0,0,3,3)*axis;
+      diff = trans_vec[4].block(0,3,3,1)-trans_vec[i].block(0,3,3,1);
+      std::cout<<rot_current<<"\n\n";
+      /* lin_current = rot_current.cross(diff); */
+      rot_vec.push_back(rot_current);
+      lin_vec.push_back(lin_current);
+  }
+  
   return 0;
 }

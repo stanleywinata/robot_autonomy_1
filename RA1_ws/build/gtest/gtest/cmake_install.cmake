@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
