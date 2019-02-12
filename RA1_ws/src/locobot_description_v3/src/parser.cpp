@@ -57,20 +57,19 @@ int main(int argc, char** argv){
      trans = trans*Transform(joint,angle[i]);
      trans_vec.push_back(trans);
   }
-  std::cout<<trans;
+  /* std::cout<<trans_vec[4]; */
     
-  std::vector<Eigen::MatrixXd> rot_vec,lin_vec;
-  Eigen::MatrixXd rot_current, lin_current(3,1);
-  Eigen::Vector3d diff(3,1);
+  Eigen::Vector3d diff(3,1),rot_current(3,1),lin_current(3,1);
+  Eigen::MatrixXd Jac = Eigen::MatrixXd::Zero(6,5);
   for(int i = 0;i<5;i++){
-      //Todo: add reading joint and also dont forget to multiply the axis
-      rot_current = trans_vec[i].block(0,0,3,3)*axis;
+      joint =  *model.getJoint(joints[i]);
+      rot_current = trans_vec[i].block(0,0,3,3)*Eigen::Vector3d(joint.axis.x,joint.axis.y,joint.axis.z);
       diff = trans_vec[4].block(0,3,3,1)-trans_vec[i].block(0,3,3,1);
-      std::cout<<rot_current<<"\n\n";
-      /* lin_current = rot_current.cross(diff); */
-      rot_vec.push_back(rot_current);
-      lin_vec.push_back(lin_current);
+      lin_current = rot_current.cross(diff);
+      Jac.block(0,i,3,1) = lin_current;
+      Jac.block(3,i,3,1) = rot_current;
   }
-  
+  std::cout<<Jac;
+   
   return 0;
 }

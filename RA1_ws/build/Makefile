@@ -478,6 +478,19 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named forkin
+
+# Build rule for target.
+forkin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 forkin
+.PHONY : forkin
+
+# fast build rule for target.
+forkin/fast:
+	$(MAKE) -f locobot_description_v3/CMakeFiles/forkin.dir/build.make locobot_description_v3/CMakeFiles/forkin.dir/build
+.PHONY : forkin/fast
+
+#=============================================================================
 # Target rules for targets named parser
 
 # Build rule for target.
@@ -527,6 +540,7 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... forkin"
 	@echo "... parser"
 .PHONY : help
 

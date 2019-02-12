@@ -17,9 +17,9 @@ include_directories(
 )
 
 add_executable(parser src/parser.cpp)
+add_executable(forkin src/forward_kinematics.cpp) 
 target_link_libraries(parser ${catkin_LIBRARIES})
-
-
+set (CMAKE_XXX_STANDARD_11)
 foreach(dir config launch meshes urdf)
 	install(DIRECTORY ${dir}/
 		DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})

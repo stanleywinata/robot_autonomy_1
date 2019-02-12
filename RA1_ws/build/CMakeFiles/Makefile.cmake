@@ -187,5 +187,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "locobot_description_v3/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "locobot_description_v3/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "locobot_description_v3/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "locobot_description_v3/CMakeFiles/forkin.dir/DependInfo.cmake"
   "locobot_description_v3/CMakeFiles/parser.dir/DependInfo.cmake"
   )
