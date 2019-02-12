@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <eigen3/Eigen/dense>
+#include <urdf/model>
 /**
  * Get the wrist pose for given joint angle configuration.
  * list of 16 values which represent the joint end effector pose obtained from the end-effector transformation matrix
@@ -13,7 +14,8 @@ std::vector<double> getWristPose(std::vector<double> joint_angles) {
   * TODO: You can change the signature of this method to pass in other objects, such as the path to the URDF file or a
   * configuration of your URDF file that has been read previously into memory.
   */
-  return std::vector<double>();
+   exit();
+   return std::vector<double>();
 }
 
 /**
