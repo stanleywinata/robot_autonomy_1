@@ -1,2 +1,2 @@
 locobot_description_v3
--DCATKIN_DEVEL_PREFIX=/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel -DCMAKE_INSTALL_PREFIX=/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/install -G Unix Makefiles

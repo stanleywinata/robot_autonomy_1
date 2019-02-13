@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src"
+CMAKE_SOURCE_DIR = "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build"
@@ -58,17 +58,17 @@ include locobot_description_v3/CMakeFiles/forkin.dir/progress.make
 include locobot_description_v3/CMakeFiles/forkin.dir/flags.make
 
 locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o: locobot_description_v3/CMakeFiles/forkin.dir/flags.make
-locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o: /home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp
+locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o: /media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o"
-	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o -c "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp"
+	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o -c "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp"
 
 locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/forkin.dir/src/forward_kinematics.cpp.i"
-	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp" > CMakeFiles/forkin.dir/src/forward_kinematics.cpp.i
+	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp" > CMakeFiles/forkin.dir/src/forward_kinematics.cpp.i
 
 locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/forkin.dir/src/forward_kinematics.cpp.s"
-	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp" -o CMakeFiles/forkin.dir/src/forward_kinematics.cpp.s
+	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3/src/forward_kinematics.cpp" -o CMakeFiles/forkin.dir/src/forward_kinematics.cpp.s
 
 locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o.requires:
 
@@ -88,14 +88,40 @@ forkin_OBJECTS = \
 # External object files for target forkin
 forkin_EXTERNAL_OBJECTS =
 
-/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o
-/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/build.make
-/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin\""
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/src/forward_kinematics.cpp.o
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/build.make
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/liburdf.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/libroscpp.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/librosconsole.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/librostime.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /opt/ros/kinetic/lib/libcpp_common.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libpthread.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin: locobot_description_v3/CMakeFiles/forkin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin\""
 	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forkin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-locobot_description_v3/CMakeFiles/forkin.dir/build: /home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin
+locobot_description_v3/CMakeFiles/forkin.dir/build: /media/winata/B8246D5D246D1F9C/Users/Stanley\ Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/devel/lib/locobot_description_v3/forkin
 
 .PHONY : locobot_description_v3/CMakeFiles/forkin.dir/build
 
@@ -108,6 +134,6 @@ locobot_description_v3/CMakeFiles/forkin.dir/clean:
 .PHONY : locobot_description_v3/CMakeFiles/forkin.dir/clean
 
 locobot_description_v3/CMakeFiles/forkin.dir/depend:
-	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src" "/home/winata/winwork/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3/CMakeFiles/forkin.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/src/locobot_description_v3" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3" "/media/winata/B8246D5D246D1F9C/Users/Stanley Winata/Desktop/Stanley/1CMU/SEM2/16662(RobotAutonomy)/Assignments/hw1/hw1_release/RA1_ws/build/locobot_description_v3/CMakeFiles/forkin.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : locobot_description_v3/CMakeFiles/forkin.dir/depend
 
